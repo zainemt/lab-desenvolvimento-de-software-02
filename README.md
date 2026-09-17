@@ -1,3 +1,8 @@
+# Grupo
+    Arthur Chaves
+    Gabriel Felipe
+    Zaine Mendes
+
 # Diagrama de caso de uso
 
 ![diagrama-caso-de-uso](./assets/diagrama-caso-de-uso.jpg)
@@ -82,3 +87,6 @@
 ### HU13 — Receber informações de matrícula
 
 **Como** sistema de cobranças, **quero** receber uma notificação quando um aluno realizar sua matrícula, **para** poder realizar a cobrança correspondente às disciplinas daquele semestre.
+# Diagrama de Classes
+
+![diagrama-classes](./assets/diagrama-classes.png)

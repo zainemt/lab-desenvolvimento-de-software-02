@@ -1,8 +1,3 @@
-# Grupo
-    Arthur Chaves
-    Gabriel Felipe
-    Zaine Mendes
-
 # Diagrama de caso de uso
 
 ![diagrama-caso-de-uso](./assets/diagrama-caso-de-uso.jpg)
@@ -87,6 +82,10 @@
 ### HU13 — Receber informações de matrícula
 
 **Como** sistema de cobranças, **quero** receber uma notificação quando um aluno realizar sua matrícula, **para** poder realizar a cobrança correspondente às disciplinas daquele semestre.
-# Diagrama de Classes
+---
+
+# Diagrama de Classes — Lab01S02
 
 ![diagrama-classes](./assets/diagrama-classes.png)
+
+> O diagrama de classes e o projeto Java da Lab01S02 foram modelados a partir do diagrama de caso de uso e das histórias HU01–HU13 acima. O diagrama de caso de uso original deve permanecer em `./assets/diagrama-caso-de-uso.jpg`.

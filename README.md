@@ -1,3 +1,8 @@
+# Integrantes
+- Arthur Chaves Viana Leão
+- Gabriel Felipe de Sousa
+- Zaine Mendes Torres
+
 # Diagrama de caso de uso
 
 ![diagrama-caso-de-uso](./assets/diagrama-caso-de-uso.jpg)

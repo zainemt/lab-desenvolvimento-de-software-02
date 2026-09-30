@@ -94,3 +94,23 @@
 ![diagrama-classes](./assets/diagrama-classes.png)
 
 > O diagrama de classes e o projeto Java da Lab01S02 foram modelados a partir do diagrama de caso de uso e das histórias HU01–HU13 acima. O diagrama de caso de uso original deve permanecer em `./assets/diagrama-caso-de-uso.jpg`.
+
+## Execução do protótipo (Lab01S03)
+
+O sistema está implementado em Java com interface de console e persistência local em arquivo. Na raiz do repositório, compile e execute com:
+
+```sh
+mkdir -p sistema-matriculas/bin
+javac -d sistema-matriculas/bin $(find sistema-matriculas/src -name '*.java')
+java -cp sistema-matriculas/bin br.edu.pucminas.matriculas.App
+```
+
+No primeiro uso, são criados cadastros de demonstração:
+
+| Perfil | ID | Senha |
+| --- | ---: | --- |
+| Secretaria | 1 | `secretaria` |
+| Professor | 2 | `professor` |
+| Aluno | 3 | `aluno` |
+
+Os dados são gravados em `sistema-matriculas/dados/sistema.dat`. O caminho pode ser alterado pela propriedade Java `-Dmatriculas.arquivo=/caminho/arquivo.dat`. A secretaria pode cadastrar e atualizar usuários, cursos e disciplinas; gerar currículos, incluir ofertas, configurar o período de matrícula e encerrar ofertas com menos de três inscrições. Ao fim do período, o sistema encerra automaticamente as ofertas com menos de três inscritos. Alunos podem selecionar até quatro primeiras opções e duas alternativas, respeitados período e limite de 60 vagas. Professores consultam os alunos de suas ofertas. A integração de cobrança é representada por um adaptador de console.
